@@ -18,6 +18,7 @@ import Contact from "@/pages/Contact";
 
 // Rutas dentro del dashboard
 import Flows from "@/pages/Flows";
+import History from "@/pages/History";
 import Settings from "@/pages/Settings";
 import { Navigate } from "react-router-dom";
 
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
                     {
                         path: "flows",
                         element: <Flows />
+                    },
+                    {
+                        path: "history",
+                        element: <History />
                     },
                     {
                         path: "settings",

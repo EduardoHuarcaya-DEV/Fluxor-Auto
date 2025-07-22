@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Toaster
-        position="top-right"
+        position="bottom-right"
         duration={5000}
         expand={true}
       />
